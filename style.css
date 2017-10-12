@@ -2,3 +2,55 @@ body {
 	color: tan;
 	background-color: grey;
 }
+
+.logo_center {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    border: 1px solid black;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+/* div#navbar ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: .75em;
+ }
+
+ div#navbar {
+    width: 100%;
+    margin-bottom: 7em;
+ }
+
+ div#navbar ul {
+    list-style-type: none;
+ }
+
+ div#navbar ul li {
+    text-align: center;
+    display: inline;
+    width: 23%;
+    float: left;
+    margin-right: .5em;
+ }
+
+li.changeBackground {
+    background-color: blue;
+}
+
+li.changeBackground:hover {
+    background-color: lightblue;
+}
+
+li.changeBackground:active {
+    background-color: darkblue;
+}*/
