@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<head>
 		<title>contact page</title>
 	</head>
@@ -12,6 +13,24 @@
             <li class="changeBackground"><a href="products.html">products</a></li>
           </ul>
         </div>
+	<img class="logo_center" src="images/logo.png">
+	<h1>Southern Sunshine & Company</h1>
+
+	<form action="send-email.php" method="post">
+		First and Last name:
+		<br>
+		<input type="text" name="first_last_name" size="25" maxlength="40">
+		<br><br>
+		Address:
+		<br>
+		<textarea name="message" rows="4" cols="30"></textarea>
+		<br><br>
+		Message:
+		<br>
+		<textarea name="message" rows="4" cols="30"></textarea>
+		<br><br>
+		<input type="submit" value="send email message">
+	</form>
 
 </body>
 </html>
