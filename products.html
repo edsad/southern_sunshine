@@ -17,6 +17,16 @@
 	<h1>Southern Sunshine & Company</h1>
 
 	<img src="images/barn-three_star.jpg" width="400" height="300">
+
+	<p id="openWindow">Tell me more about this.</p>
+	<script>
+		document.getElementById("openWindow").onclick = openWindow;
+		function openWindow() {
+			var w = window.open("more-info.html", "",
+		"width=1200,height=1000,left=300,top=200");
+		}
+	</script>
+
 	<img src="images/blue-fish.jpg" width="400" height="300">
 	<img src="images/fresh_herbs.jpg" width="400" height="300">
 	<img src="images/valentine.jpg" width="400" height="300">
