@@ -12,3 +12,9 @@ console.log("main js for southern sunshine is working");
 			var w = window.open("more-info6.html", "",
 		"width=1200,height=1000,left=300,top=200");
 		}
+
+	document.getElementById("openWindow7").onclick = openWindow7;
+		function openWindow7() {
+			var w = window.open("more-info7.html", "",
+		"width=1200,height=1000,left=300,top=200");
+		}
