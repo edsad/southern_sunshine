@@ -24,6 +24,10 @@ div#findme {
 	text-align: center;
 }
 
+.good {
+    display: inline-block;
+}
+
 /* div#navbar ul li a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1em;
